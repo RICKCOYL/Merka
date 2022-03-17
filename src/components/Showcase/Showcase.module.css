@@ -1,0 +1,127 @@
+/* FIRST SHOWCASE */
+
+.firstShowcaseParagraph {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.secondShowcaseParagraph {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.firstShowcaseImg {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 150px;
+}
+
+.VerticalLine {
+  border-left: 4px solid #fff;
+  border-radius: 10px;
+  height: 20px;
+  display: inline;
+  margin: 7px 0 10px 1px;
+}
+
+.firstShowcaseDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.lineDot {
+  display: flex;
+  flex-direction: column;
+}
+
+/* SECOND SHOWCASE */
+
+.ExploreMore {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  width: 140px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.secondMainShowcaseParagrah {
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 30px;
+  /* or 176% */
+
+  color: #ffffff;
+}
+
+.secondMainShowcaseHeader {
+  font-weight: 900;
+  font-size: 49px;
+  line-height: 69px;
+  text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
+}
+
+/* fourth showcase */
+.socialIconsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.socialIcons {
+  width: 26px;
+  margin-bottom: 70px;
+  
+}
+
+.socialVerticalLine {
+    border-left: 2px solid #fff;
+  border-radius: 10px;
+  height: 100px;
+  margin-top: 70px;
+}
+
+
+/* fourthShowcase */
+.thirdShowcaseDiv {
+  position: relative;
+}
+
+.frame {
+    width: 500px;
+    position: relative;
+    bottom: 35px;
+}
+
+.bitcoinLogo {
+  width: 300px;
+  position: absolute;
+  top: 9%;
+  left: 27%
+}
+

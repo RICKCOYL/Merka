@@ -1,0 +1,93 @@
+.App {
+  background-image: url("./assets/bgImg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* height: 100vh; */
+}
+
+body {
+  margin: 0;
+
+  color: #fff;
+  font-family: Montserrat;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+
+}
+
+/* NAVBAR */
+
+nav {
+  background-image: url('./assets/headerbg.png');
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h3 {
+  font-size: 37px;
+  font-weight: semi-bold;
+}
+
+li a {
+  font-size: 19px;
+}
+
+.Heading-sec {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.Heading-sec h3 {
+  margin-right: 200px;
+}
+/* FIRST SHOWCASE */
+
+.Vertical-line {
+  border-left: 2px solid #fff;
+  height: 30px;
+  display: inline;
+  margin: 7px 0 0 3px;
+}
+
+.firstShowcaseDiv {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px 0;
+
+}
+
+.line-dot {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 10% 50% 30% 10%;
+}
